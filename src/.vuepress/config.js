@@ -4,6 +4,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
   bundler: viteBundler(),
+  base:'/blog/',
 
   theme: plumeTheme({
     // 在这里配置主题
